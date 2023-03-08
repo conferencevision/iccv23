@@ -30,12 +30,12 @@ By default, saliency maps for CNNs are generated using the Resnet101 network on 
 
 The generated saliency maps will be stored in the `qualitive_results` directory.
 
+## Reproducing Segmentation Results
+
 ### Download the segmentaion datasets:
 - Download imagenet_dataset [Link to download dataset](http://calvin-vision.net/bigstuff/proj-imagenet/data/gtsegs_ijcv.mat)
 - Download the COCO_Val2017 [Link to download dataset](https://cocodataset.org/#download)
 - Download Pascal_val_2012 [Link to download dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
-
-## Reproducing Segmentation Results
 
 To run the image segmentation, download the VOC and COCO datasets to `data/VOC` and `data/COCO` respectively. 
 For Imagenet segmentation, use the dataset provided in the link ([Link to download dataset](http://calvin-vision.net/bigstuff/proj-imagenet/data/gtsegs_ijcv.mat)).
